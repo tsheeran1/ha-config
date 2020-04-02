@@ -1,0 +1,96 @@
+- id: '1574956054519'
+  alias: Perimeter On
+  description: Turn on perimeter lights 30 minutes before sunset
+  trigger:
+  - event: sunset
+    offset: -00:30:00
+    platform: sun
+  condition: []
+  action:
+  - data:
+      entity_id: group.perimeter
+    service: homeassistant.turn_on
+- id: '1574956270749'
+  alias: Perimeter Off
+  description: Turn off perimeter lights 30 minutes after sunrise
+  trigger:
+  - event: sunrise
+    platform: sun
+  condition: []
+  action:
+  - data:
+      entity_id: group.perimeter
+    service: homeassistant.turn_off
+- id: '1574956402439'
+  alias: Ambient On
+  description: Turn on ambient light group 45 minutes before sunset
+  trigger:
+  - event: sunset
+    offset: -00:45:00
+    platform: sun
+  condition: []
+  action:
+  - data:
+      entity_id: group.ambient
+    service: homeassistant.turn_on
+- id: '1574956487312'
+  alias: Ambient Off
+  description: Turn off ambient light group at 11pm
+  trigger:
+  - at: '22:30'
+    platform: time
+  condition: []
+  action:
+  - data:
+      entity_id: group.ambient
+    service: homeassistant.turn_off
+- id: '1574959454545'
+  alias: Minimote Toggle
+  description: Minimote button toggles toms lamp
+  trigger:
+  - event_data:
+      entity_id: zwave.toms_minimote
+      scene_id: 1
+    event_type: zwave.scene_activated
+    platform: event
+  condition: []
+  action:
+  - data:
+      entity_id: switch.toms_lamp
+    service: homeassistant.toggle
+- id: '1575325222095'
+  alias: Back Hall Motion On
+  description: Turn on back hall light when motion detected
+  trigger:
+  - entity_id: binary_sensor.back_hall_motion
+    platform: state
+    to: 'on'
+  condition: []
+  action:
+  - data:
+      entity_id: switch.back_hall
+    service: homeassistant.turn_on
+- id: '1575325361715'
+  alias: Back Hall Motion Off
+  description: Turn off back hall light when no motion for 2 minutes
+  trigger:
+  - entity_id: binary_sensor.back_hall_motion
+    for: 00:02:00
+    from: 'on'
+    platform: state
+    to: 'off'
+  condition: []
+  action:
+  - data:
+      entity_id: switch.back_hall
+    service: homeassistant.turn_off
+- id: '1581125615875'
+  alias: Create All Groups
+  description: ''
+  trigger:
+  - event: start
+    platform: homeassistant
+  condition: []
+  action:
+  - service: script.create_all_lights
+  - service: script.create_all_switches

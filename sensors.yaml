@@ -1,0 +1,27 @@
+# version
+- platform: version
+  name: Installed Version
+  source: local
+#- platform: rest
+#  name: Latest Version
+#  resource: 'https://registry.hub.docker.com/v2/repositories/homeassistant/raspberrypi3-homeassistant/tags'
+#  value_template: >-
+#    {% set results = value_json.results %}
+#    {%-set res-%}
+#    {%-set pipe = joiner('|')-%}
+#    {% for result in results if not result.name |regex_search("[a-z]",ignorecase=TRUE) -%}
+#      {{ pipe()}}{{result.name}}
+#    {% else %}
+#      -1
+#    {% endfor -%}
+#    {% endset -%}
+#    {set res = res.split('|')|list -%}
+#    {{res[0]}}
+#  scan_interval: 86400
+- platform: version
+  name: Latest Version
+  image: raspberrypi3
+  source: docker
+# number of days left on SSL cert
+- platform: cert_expiry
+  host: tajha.duckdns.org

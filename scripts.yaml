@@ -1,0 +1,14 @@
+create_all_lights:
+  sequence:
+    - service: group.set
+      data_template:
+        object_id: "all_lights"
+        entities: "{{ states.light | map(attribute='entity_id') | join(',') }}"
+
+create_all_switches:
+  sequence:
+    - service: group.set
+      data_template:
+        object_id: "all_switches"
+        entities: "{{ states.switch | map(attribute='entity_id') | join(',') }}"
+

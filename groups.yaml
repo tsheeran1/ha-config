@@ -1,0 +1,163 @@
+#z_wave_devices:
+#  entities:
+#    - zwave.aeotec_dsa03202_minimote	
+#    - zwave.aeotec_zw090_zstick_gen5_us
+#    - zwave.back_hall_lights
+#    - zwave.back_hall_motion
+#    - zwave.back_stairs_light
+#    - zwave.deck_house_lights
+#    - zwave.deck_office_light
+#    - zwave.deck_rail_lights
+#    - zwave.driveway_carriage_lights
+#    - zwave.great_room_chandelier
+#    - zwave.great_room_down_lights
+#    - zwave.great_room_fireplace
+#    - zwave.kitchen_front_down_lights	
+#    - zwave.kitchen_island_chandelier
+#    - zwave.kitchen_main_down_lights
+#    - zwave.kitchen_table_chandelier
+#    - zwave.porch_carriage_lights
+#    - zwave.porch_downlights
+#    - zwave.side_door_light
+#    - zwave.toms_room_lamp
+#
+#   Default Group
+#
+#default_view:
+#  name: Home
+#  view: yes
+#  icon: mdi:home
+#  entities:
+#    - group.porch
+#    - group.driveway
+#    - group.foyer
+#    - group.kim
+#    - group.kitchen
+#    - group.great_room
+#    - group.tom
+#    - group.back_hall
+#    - group.deck
+    
+#ambient_view:
+#  name: Ambient
+#  view: yes
+#  entities:
+#    - group.ambient
+
+#perimiter_view:
+#  name: Perimeter
+#  view: yes
+#  entities:
+#    - group.perimeter
+
+#all_light_view:
+#  name: All Lights
+#  view: yes
+#  entities:
+#    - group.all_lights
+#    - group.all_switches
+
+#automations_view:
+#  name: Automations
+#  icon: mdi:home-automation
+#  view: yes
+#  entities:
+#    - group.all_automations
+
+#about_view:
+#  name: About
+#  view: yes
+#  entities:
+#    - group.about
+
+
+
+ambient:
+  name: Ambient Lights
+  entities:
+    - light.foyer_chandelier
+    - light.great_room_chandelier
+    - light.kitchen_ceiling
+    - light.kitchen_table
+    - switch.arch
+    - switch.foyer_lamp_1
+    - switch.foyer_lamp_2
+    - switch.toms_lamp
+
+perimeter:
+  name: Perimeter Lights
+  entities:
+    - switch.porch_carriage
+    - switch.driveway_carriage
+    - switch.side_door
+    - switch.deck_house
+
+kim:
+  name: Kim's Office
+  entities:
+    - light.kims_office
+    - switch.kims_office_lamp
+
+tom:
+  name: Tom's
+  entities:
+    - light.toms_office
+    - switch.toms_lamp
+  
+foyer:
+  name: Foyer
+  entities:
+    - light.foyer_chandelier
+    - switch.arch
+    - switch.foyer_lamp_1
+    - switch.foyer_lamp_2
+
+great_room:
+  name: Great Room
+  entities:
+    - light.great_room_chandelier
+    - light.great_room_ceiling
+
+kitchen:
+  name: Kitchen
+  entities:
+    - light.kitchen_island
+    - light.kitchen_table
+    - light.kitchen_ceiling
+    - switch.kitchen_front
+#    - switch.back_stairs
+
+porch:
+  name: Porch
+  entities:
+    - switch.porch_carriage
+    - switch.porch_ceiling
+
+driveway:
+  name: Driveway
+    - switch.driveway_carriage
+    - switch.side_door
+
+deck:
+  name: Deck
+    - switch.deck_house
+    - switch.deck_rail
+    - switch.deck_office
+
+#back_hall:
+#  name: Back Hall
+#  entities:
+#    - switch.back_hall
+#    - binary_sensor.back_hall
+#    - sensor.back_hall_motion_battery
+
+
+#
+# Group Motion Sensors
+#
+#motion_sensors:
+#  name: 'Motion Sensors'
+#  icon: mdi:security-home
+#  entities:
+#    - binary_sensor.back_hall
+#    - sensor.back_hall_motion_battery

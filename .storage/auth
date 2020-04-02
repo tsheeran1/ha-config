@@ -1,0 +1,186 @@
+{
+    "data": {
+        "credentials": [
+            {
+                "auth_provider_id": null,
+                "auth_provider_type": "homeassistant",
+                "data": {
+                    "username": "tom"
+                },
+                "id": "225a20558938410f8cf9b1194e6d21ac",
+                "user_id": "297616794afc42a8be1e22d02faf5815"
+            },
+            {
+                "auth_provider_id": null,
+                "auth_provider_type": "homeassistant",
+                "data": {
+                    "username": "kim"
+                },
+                "id": "2e9f5f688a9845f4aa27e1ccf3ed0a41",
+                "user_id": "939e75cd6cd745e6a5d2c74c7163e277"
+            }
+        ],
+        "groups": [
+            {
+                "id": "system-admin",
+                "name": "Administrators"
+            },
+            {
+                "id": "system-users",
+                "name": "Users"
+            },
+            {
+                "id": "system-read-only",
+                "name": "Read Only"
+            }
+        ],
+        "refresh_tokens": [
+            {
+                "access_token_expiration": 1800.0,
+                "client_icon": null,
+                "client_id": "http://tajha.duckdns.org:8123/",
+                "client_name": null,
+                "created_at": "2019-11-28T00:49:18.186806+00:00",
+                "id": "495484670b5e47ce984d3d5d738a5f30",
+                "jwt_key": "55d7f892f2eb33301e8e1c1c75e2743765af6b2250fb6d335c2cc370082a76b3ec7ee62e11fa1ffa1cfffbc67af1afc2416b39f1e3bac3f41b4e6280a317f52b",
+                "last_used_at": "2019-11-28T00:49:18.187058+00:00",
+                "last_used_ip": "192.168.86.1",
+                "token": "74a4605093624073dbc1f1a96c7805eb14afe19d6b51bf2f30592d29a390f8884d14f1f0cc8351ed89f53f68ec0b326567e56bdf2c9e24b5f488590e2060148e",
+                "token_type": "normal",
+                "user_id": "297616794afc42a8be1e22d02faf5815"
+            },
+            {
+                "access_token_expiration": 1800.0,
+                "client_icon": null,
+                "client_id": "https://tajha.duckdns.org/",
+                "client_name": null,
+                "created_at": "2019-11-28T01:06:31.659802+00:00",
+                "id": "066634764f1d448490a3db87eff67adf",
+                "jwt_key": "db90c77af7cdabe9e94671519984607264c5310f0278455fd2f23e13b95777faa311497b0da784249fd1bf34b50335f5c45305a0e8a09258acf3198b566ae9ed",
+                "last_used_at": "2020-04-01T22:31:21.846600+00:00",
+                "last_used_ip": "192.168.86.1",
+                "token": "4c522e8646f246a8e7f01c378b943127ecec35e851924227a44327b1484f536a52c63e16e933d4f795dd33d36ea0922e99ff94b28fe93cc434d86e90e82e6bb4",
+                "token_type": "normal",
+                "user_id": "297616794afc42a8be1e22d02faf5815"
+            },
+            {
+                "access_token_expiration": 1800.0,
+                "client_icon": null,
+                "client_id": "https://home-assistant.io/iOS",
+                "client_name": null,
+                "created_at": "2019-11-28T01:07:40.243938+00:00",
+                "id": "7ce82f9744c3434683c87020f2421130",
+                "jwt_key": "44679255f7eb558a3a2b20fda5a51b26362621dd5668d086b06e541f8683bf4841fcddaa5a79ff0487398af78330ecc197f7bc84b653cc0d58960cda8d496d83",
+                "last_used_at": "2020-03-31T23:06:49.087693+00:00",
+                "last_used_ip": "192.168.86.1",
+                "token": "c51998700bf4305e2842cbe4de042a261b4d016726df36776ac17df15b0abf532fd76b382fa3a9e67eb93743e1558ae611aa1ab23a39ea5adfe4423c355317c1",
+                "token_type": "normal",
+                "user_id": "297616794afc42a8be1e22d02faf5815"
+            },
+            {
+                "access_token_expiration": 1800.0,
+                "client_icon": null,
+                "client_id": "https://tajha.duckdns.org/",
+                "client_name": null,
+                "created_at": "2019-11-29T03:38:33.537241+00:00",
+                "id": "c573d64c2bd84d78bd43121818f2168e",
+                "jwt_key": "b88c9da5ae24940e2a0fda82e53440030571c938b8b532cc2eff918903cd7301b4be288f0b6ca1763e6d60ef001f438ecf6ce1c9b5790b53858ad4c36f8999c9",
+                "last_used_at": "2020-04-01T05:54:26.699840+00:00",
+                "last_used_ip": "192.168.86.1",
+                "token": "9a75ecb9118adb17d14126ac4bc8f69b38ec66697cd4a2786f4010f55c00c5b0f312f7a093987bfbe0fd1bb4873f4598880ece5a84505c675fa9cdc77b178258",
+                "token_type": "normal",
+                "user_id": "297616794afc42a8be1e22d02faf5815"
+            },
+            {
+                "access_token_expiration": 1800.0,
+                "client_icon": null,
+                "client_id": "https://home-assistant.io/iOS",
+                "client_name": null,
+                "created_at": "2019-12-01T04:07:02.289897+00:00",
+                "id": "586d9a15de6a42f9bf006f7b23e7a7b9",
+                "jwt_key": "462f64178aa3311a0095c5e89bfa6fffde4439952dacf65c95d0d89c104cadd494bc1d6054dde64f67fd5893c2a33b30863eeae44345715a6dbc6cfcb62c6c39",
+                "last_used_at": "2020-04-01T01:43:14.965177+00:00",
+                "last_used_ip": "192.168.86.1",
+                "token": "b96f5dcf5ae0e1b0e90138924d53bf06f7c0269246c4b1cd2a84c430be0d695e383d9892eea9976bf509d67ea8020549539ec96ac35aecf9541ca5e09437a747",
+                "token_type": "normal",
+                "user_id": "297616794afc42a8be1e22d02faf5815"
+            },
+            {
+                "access_token_expiration": 1800.0,
+                "client_icon": null,
+                "client_id": "https://tajha.duckdns.org/",
+                "client_name": null,
+                "created_at": "2019-12-25T17:04:31.165540+00:00",
+                "id": "fd416b790cb149fbb03b872e3e6938a4",
+                "jwt_key": "52bd0c3c00fea50c2bf641208a4113db8158a34dca9f95096f33b0fde27b52be112ad0b336f327afca648c228c296ee802e4831a3056025283b043bdd5bbe995",
+                "last_used_at": "2019-12-25T20:16:04.161527+00:00",
+                "last_used_ip": "192.168.86.1",
+                "token": "d3ca30b4f80d1ba8885b04a96676f88c0a209215f590a5ff0c28166e80eaa4b9841db918b43846be7e4da7c2e98d12a8c508b7286218ba1ec8cd60421d9e296f",
+                "token_type": "normal",
+                "user_id": "297616794afc42a8be1e22d02faf5815"
+            },
+            {
+                "access_token_expiration": 1800.0,
+                "client_icon": null,
+                "client_id": "https://tajha.duckdns.org/",
+                "client_name": null,
+                "created_at": "2019-12-28T04:45:58.501993+00:00",
+                "id": "a347eef66eb04e7fbb66bbf6bf2b08a8",
+                "jwt_key": "acd9888a38737fec7e0ab006143aaffb240edb8ee40de705f67d1ebe1773fe15a92038d62a3ba6f77ef49aed2ab9134f6081607e7abb5fcc34fc9df25c8baa4f",
+                "last_used_at": "2019-12-28T04:45:58.502591+00:00",
+                "last_used_ip": "192.168.86.1",
+                "token": "9398dd4943d46723b2ec8cd039405522ba7574eebf8869c9ec3195a483db7ee6dc9b6c613fae959e2504feea4c01071bf56adcf29c23edb6177d18330fe31776",
+                "token_type": "normal",
+                "user_id": "297616794afc42a8be1e22d02faf5815"
+            },
+            {
+                "access_token_expiration": 1800.0,
+                "client_icon": null,
+                "client_id": "https://home-assistant.io/iOS",
+                "client_name": null,
+                "created_at": "2019-11-28T16:51:15.795317+00:00",
+                "id": "a63f6cef9cd24959be713efc72470f3e",
+                "jwt_key": "fc0e229b8ae5acccea5e6ae49999f1ea62eab08bc8a85d0422d9e8cbbdf99e58437cc0b1e9f8a693dd4a5b22c7000eb02c1c391dcc954c1c798bb8987c2a71a0",
+                "last_used_at": "2020-04-01T12:52:16.064890+00:00",
+                "last_used_ip": "192.168.86.1",
+                "token": "8ad7acf2c89ebd4db8117f590a6431a2715a53a3f3ddf75540e3b479837cb7d9b24c82aee71cb926c4196752818dd7deb110474fa56fa7548c623e34d6cea00c",
+                "token_type": "normal",
+                "user_id": "939e75cd6cd745e6a5d2c74c7163e277"
+            }
+        ],
+        "users": [
+            {
+                "group_ids": [
+                    "system-admin"
+                ],
+                "id": "194b2b2378d3490696b53463f5fcfda6",
+                "is_active": true,
+                "is_owner": false,
+                "name": "Home Assistant Cloud",
+                "system_generated": true
+            },
+            {
+                "group_ids": [
+                    "system-admin"
+                ],
+                "id": "297616794afc42a8be1e22d02faf5815",
+                "is_active": true,
+                "is_owner": true,
+                "name": "tom",
+                "system_generated": false
+            },
+            {
+                "group_ids": [
+                    "system-admin"
+                ],
+                "id": "939e75cd6cd745e6a5d2c74c7163e277",
+                "is_active": true,
+                "is_owner": false,
+                "name": "Kim",
+                "system_generated": false
+            }
+        ]
+    },
+    "key": "auth",
+    "version": 1
+}

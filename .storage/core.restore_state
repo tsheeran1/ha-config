@@ -1,0 +1,276 @@
+{
+    "data": [
+        {
+            "last_seen": "2020-04-02T01:02:52.011876+00:00",
+            "state": {
+                "attributes": {
+                    "editable": true,
+                    "friendly_name": "Tom",
+                    "gps_accuracy": 65,
+                    "id": "e2b8e35da5954bf59650e47d3a459c71",
+                    "latitude": 42.415673300201796,
+                    "longitude": -83.51784292663595,
+                    "source": "device_tracker.toms_iphone",
+                    "user_id": "297616794afc42a8be1e22d02faf5815"
+                },
+                "context": {
+                    "id": "74d112208a504f4dad7705d5304d155d",
+                    "parent_id": null,
+                    "user_id": null
+                },
+                "entity_id": "person.tom",
+                "last_changed": "2020-03-27T00:53:08.983414+00:00",
+                "last_updated": "2020-04-01T22:20:55.927760+00:00",
+                "state": "home"
+            }
+        },
+        {
+            "last_seen": "2020-04-02T01:02:52.011876+00:00",
+            "state": {
+                "attributes": {
+                    "editable": true,
+                    "friendly_name": "Kim",
+                    "gps_accuracy": 100,
+                    "id": "a5a380d2dfe84dbdb9974d5f26d07b6a",
+                    "latitude": 42.41528274759506,
+                    "longitude": -83.51808786392213,
+                    "source": "device_tracker.kims_iphone",
+                    "user_id": "939e75cd6cd745e6a5d2c74c7163e277"
+                },
+                "context": {
+                    "id": "33b623748bc846e8b4cdab26c6a40494",
+                    "parent_id": null,
+                    "user_id": null
+                },
+                "entity_id": "person.kim",
+                "last_changed": "2020-03-27T00:53:08.999112+00:00",
+                "last_updated": "2020-03-27T00:53:24.199885+00:00",
+                "state": "home"
+            }
+        },
+        {
+            "last_seen": "2020-04-02T01:02:52.011876+00:00",
+            "state": {
+                "attributes": {
+                    "friendly_name": "Back Hall Motion On",
+                    "id": "1575325222095",
+                    "last_triggered": "2020-04-01T23:46:49.328417+00:00"
+                },
+                "context": {
+                    "id": "343348d2901344b89898fbcfddcfd6ad",
+                    "parent_id": "9bd6a27089a74e43bd5dbaf3fb9c1e25",
+                    "user_id": null
+                },
+                "entity_id": "automation.back_hall_motion_on",
+                "last_changed": "2020-03-27T00:53:14.964979+00:00",
+                "last_updated": "2020-04-01T23:46:49.329167+00:00",
+                "state": "on"
+            }
+        },
+        {
+            "last_seen": "2020-04-02T01:02:52.011876+00:00",
+            "state": {
+                "attributes": {
+                    "friendly_name": "Perimeter On",
+                    "id": "1574956054519",
+                    "last_triggered": "2020-04-01T23:29:27.044307+00:00"
+                },
+                "context": {
+                    "id": "7f292cc0ccb54852a2df856c08ef8d35",
+                    "parent_id": null,
+                    "user_id": null
+                },
+                "entity_id": "automation.perimeter_on",
+                "last_changed": "2020-03-27T00:53:14.974162+00:00",
+                "last_updated": "2020-04-01T23:29:27.045024+00:00",
+                "state": "on"
+            }
+        },
+        {
+            "last_seen": "2020-04-02T01:02:52.011876+00:00",
+            "state": {
+                "attributes": {
+                    "friendly_name": "Create All Groups",
+                    "id": "1581125615875",
+                    "last_triggered": "2020-03-27T00:53:24.443799+00:00"
+                },
+                "context": {
+                    "id": "def328c551e94608afa1072eab4bed0a",
+                    "parent_id": null,
+                    "user_id": null
+                },
+                "entity_id": "automation.create_all_groups",
+                "last_changed": "2020-03-27T00:53:14.975753+00:00",
+                "last_updated": "2020-03-27T00:53:24.444474+00:00",
+                "state": "on"
+            }
+        },
+        {
+            "last_seen": "2020-04-02T01:02:52.011876+00:00",
+            "state": {
+                "attributes": {
+                    "friendly_name": "Perimeter Off",
+                    "id": "1574956270749",
+                    "last_triggered": "2020-04-01T11:16:23.079495+00:00"
+                },
+                "context": {
+                    "id": "d79ffedaa3f14ed8a660b281933b9956",
+                    "parent_id": null,
+                    "user_id": null
+                },
+                "entity_id": "automation.perimeter_off",
+                "last_changed": "2020-03-27T00:53:14.977119+00:00",
+                "last_updated": "2020-04-01T11:16:23.080523+00:00",
+                "state": "on"
+            }
+        },
+        {
+            "last_seen": "2020-04-02T01:02:52.011876+00:00",
+            "state": {
+                "attributes": {
+                    "friendly_name": "Ambient On",
+                    "id": "1574956402439",
+                    "last_triggered": "2020-04-01T23:14:27.457613+00:00"
+                },
+                "context": {
+                    "id": "4ecaa112162f41a1b6e8a81c08d1832c",
+                    "parent_id": null,
+                    "user_id": null
+                },
+                "entity_id": "automation.ambient_on",
+                "last_changed": "2020-03-27T00:53:14.992905+00:00",
+                "last_updated": "2020-04-01T23:14:27.458225+00:00",
+                "state": "on"
+            }
+        },
+        {
+            "last_seen": "2020-04-02T01:02:52.011876+00:00",
+            "state": {
+                "attributes": {
+                    "friendly_name": "Back Hall Motion Off",
+                    "id": "1575325361715",
+                    "last_triggered": "2020-04-01T23:49:21.034807+00:00"
+                },
+                "context": {
+                    "id": "ab9fe06127364a0f9bf3d4620758f738",
+                    "parent_id": "a5f657ec3cfa44e090bc2c1b457fc2d6",
+                    "user_id": null
+                },
+                "entity_id": "automation.back_hall_motion_off",
+                "last_changed": "2020-03-27T00:53:14.994561+00:00",
+                "last_updated": "2020-04-01T23:49:21.035806+00:00",
+                "state": "on"
+            }
+        },
+        {
+            "last_seen": "2020-04-02T01:02:52.011876+00:00",
+            "state": {
+                "attributes": {
+                    "friendly_name": "Ambient Off",
+                    "id": "1574956487312",
+                    "last_triggered": "2020-04-01T02:30:00.489679+00:00"
+                },
+                "context": {
+                    "id": "b38b63c68e6c466fa6910308948d5435",
+                    "parent_id": null,
+                    "user_id": null
+                },
+                "entity_id": "automation.ambient_off",
+                "last_changed": "2020-03-27T00:53:14.996069+00:00",
+                "last_updated": "2020-04-01T02:30:00.490146+00:00",
+                "state": "on"
+            }
+        },
+        {
+            "last_seen": "2020-04-02T01:02:52.011876+00:00",
+            "state": {
+                "attributes": {
+                    "friendly_name": "Minimote Toggle",
+                    "id": "1574959454545",
+                    "last_triggered": "2020-04-01T04:35:05.202168+00:00"
+                },
+                "context": {
+                    "id": "ec2da45dbb3c46aea3cd201d12692edf",
+                    "parent_id": "21a53a05a27849b4b246d6f3012086d8",
+                    "user_id": null
+                },
+                "entity_id": "automation.minimote_toggle",
+                "last_changed": "2020-03-27T00:53:15.003263+00:00",
+                "last_updated": "2020-04-01T04:35:05.203198+00:00",
+                "state": "on"
+            }
+        },
+        {
+            "last_seen": "2020-04-02T01:02:52.011876+00:00",
+            "state": {
+                "attributes": {
+                    "altitude": 252.8790283203125,
+                    "battery_level": 95,
+                    "friendly_name": "Tom's iPhone",
+                    "gps_accuracy": 65,
+                    "latitude": 42.415673300201796,
+                    "longitude": -83.51784292663595,
+                    "source_type": "gps",
+                    "vertical_accuracy": 10
+                },
+                "context": {
+                    "id": "c258714c1ef641e2b98773f41494f7d7",
+                    "parent_id": null,
+                    "user_id": null
+                },
+                "entity_id": "device_tracker.toms_iphone",
+                "last_changed": "2020-04-01T22:20:55.910599+00:00",
+                "last_updated": "2020-04-01T22:20:55.910599+00:00",
+                "state": "home"
+            }
+        },
+        {
+            "last_seen": "2020-04-02T01:02:52.011876+00:00",
+            "state": {
+                "attributes": {
+                    "battery_level": 77,
+                    "friendly_name": "Kim's iPhone",
+                    "gps_accuracy": 100,
+                    "latitude": 42.41528274759506,
+                    "longitude": -83.51808786392213,
+                    "source_type": "gps"
+                },
+                "context": {
+                    "id": "06dd1ec6ac774a06a30b81a18b36d627",
+                    "parent_id": null,
+                    "user_id": null
+                },
+                "entity_id": "device_tracker.kims_iphone",
+                "last_changed": "2020-03-27T00:53:20.845673+00:00",
+                "last_updated": "2020-03-27T00:53:20.845673+00:00",
+                "state": "home"
+            }
+        },
+        {
+            "last_seen": "2020-04-02T01:02:52.011876+00:00",
+            "state": {
+                "attributes": {
+                    "altitude": 252.94476318359375,
+                    "battery_level": 80,
+                    "friendly_name": "iPad (2)",
+                    "gps_accuracy": 65,
+                    "latitude": 42.41571044921875,
+                    "longitude": -83.51779018227592,
+                    "source_type": "gps",
+                    "vertical_accuracy": 10
+                },
+                "context": {
+                    "id": "5f97ac6294f9468fa10cee69fb95baa4",
+                    "parent_id": null,
+                    "user_id": null
+                },
+                "entity_id": "device_tracker.ipad_2",
+                "last_changed": "2020-04-01T05:54:25.737972+00:00",
+                "last_updated": "2020-04-01T05:54:25.737972+00:00",
+                "state": "home"
+            }
+        }
+    ],
+    "key": "core.restore_state",
+    "version": 1
+}

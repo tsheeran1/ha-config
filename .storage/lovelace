@@ -1,0 +1,359 @@
+{
+    "data": {
+        "config": {
+            "title": "Home",
+            "views": [
+                {
+                    "badges": [
+                        {
+                            "entity": "sensor.latest_version"
+                        },
+                        {
+                            "entity": "sensor.installed_version"
+                        },
+                        {
+                            "entity": "sensor.ssl_certificate_expiry"
+                        },
+                        {
+                            "entity": "person.tom"
+                        },
+                        {
+                            "entity": "person.kim"
+                        }
+                    ],
+                    "cards": [
+                        {
+                            "entity": "weather.dark_sky",
+                            "type": "weather-forecast"
+                        },
+                        {
+                            "entities": [
+                                {
+                                    "entity": "light.kitchen_island"
+                                },
+                                {
+                                    "entity": "light.kitchen_table"
+                                },
+                                {
+                                    "entity": "light.kitchen_ceiling"
+                                },
+                                {
+                                    "entity": "switch.kitchen_front"
+                                },
+                                {
+                                    "entity": "switch.back_stairs"
+                                }
+                            ],
+                            "show_header_toggle": true,
+                            "title": "Kitchen",
+                            "type": "entities"
+                        },
+                        {
+                            "entities": [
+                                "light.foyer_chandelier",
+                                "switch.arch",
+                                "switch.foyer_lamp_1",
+                                "switch.foyer_lamp_2"
+                            ],
+                            "show_header_toggle": true,
+                            "title": "Foyer",
+                            "type": "entities"
+                        },
+                        {
+                            "entities": [
+                                "light.kims_office",
+                                "switch.kims_office_lamp"
+                            ],
+                            "show_header_toggle": true,
+                            "title": "Kim's Office",
+                            "type": "entities"
+                        },
+                        {
+                            "entities": [
+                                "light.toms_office",
+                                "switch.toms_lamp"
+                            ],
+                            "show_header_toggle": true,
+                            "title": "Tom's",
+                            "type": "entities"
+                        },
+                        {
+                            "entities": [
+                                {
+                                    "entity": "light.great_room_chandelier"
+                                },
+                                {
+                                    "entity": "light.great_room_ceiling"
+                                },
+                                {
+                                    "entity": "switch.great_room_fireplace"
+                                }
+                            ],
+                            "show_header_toggle": true,
+                            "title": "Great Room",
+                            "type": "entities"
+                        },
+                        {
+                            "entities": [
+                                {
+                                    "entity": "switch.deck_house"
+                                },
+                                {
+                                    "entity": "switch.deck_rail"
+                                },
+                                {
+                                    "entity": "switch.deck_office"
+                                }
+                            ],
+                            "title": "Deck",
+                            "type": "entities"
+                        },
+                        {
+                            "entities": [
+                                "switch.porch_carriage",
+                                "switch.porch_ceiling"
+                            ],
+                            "show_header_toggle": true,
+                            "title": "Porch",
+                            "type": "entities"
+                        },
+                        {
+                            "entities": [
+                                {
+                                    "entity": "switch.driveway_carriage"
+                                },
+                                {
+                                    "entity": "switch.side_door"
+                                }
+                            ],
+                            "title": "Driveway",
+                            "type": "entities"
+                        },
+                        {
+                            "entities": [
+                                {
+                                    "entity": "switch.back_hall"
+                                },
+                                {
+                                    "entity": "switch.side_door"
+                                }
+                            ],
+                            "title": "Test",
+                            "type": "glance"
+                        }
+                    ],
+                    "icon": "mdi:home",
+                    "path": "default_view",
+                    "title": "Home"
+                },
+                {
+                    "badges": [],
+                    "cards": [
+                        {
+                            "entities": [
+                                "light.foyer_chandelier",
+                                "light.great_room_chandelier",
+                                "light.kitchen_ceiling",
+                                "light.kitchen_table",
+                                "switch.arch",
+                                "switch.foyer_lamp_1",
+                                "switch.foyer_lamp_2"
+                            ],
+                            "show_header_toggle": true,
+                            "title": "Ambient Lights",
+                            "type": "entities"
+                        }
+                    ],
+                    "path": "ambient_view",
+                    "title": "Ambient"
+                },
+                {
+                    "badges": [],
+                    "cards": [
+                        {
+                            "entities": [
+                                "switch.porch_carriage",
+                                "switch.driveway_carriage",
+                                "switch.side_door",
+                                "switch.deck_house"
+                            ],
+                            "show_header_toggle": true,
+                            "title": "Perimeter Lights",
+                            "type": "entities"
+                        }
+                    ],
+                    "path": "perimiter_view",
+                    "title": "Perimeter"
+                },
+                {
+                    "badges": [],
+                    "cards": [
+                        {
+                            "entities": [
+                                {
+                                    "entity": "group.all_lights"
+                                },
+                                {
+                                    "entity": "group.all_switches"
+                                }
+                            ],
+                            "type": "entities"
+                        }
+                    ],
+                    "path": "all_light_view",
+                    "title": "All Lights"
+                },
+                {
+                    "badges": [],
+                    "cards": [
+                        {
+                            "entities": [
+                                {
+                                    "entity": "sensor.installed_version"
+                                },
+                                {
+                                    "entity": "sensor.latest_version"
+                                },
+                                {
+                                    "entity": "sun.sun"
+                                }
+                            ],
+                            "show_header_toggle": true,
+                            "title": "About Home Assistant",
+                            "type": "entities"
+                        },
+                        {
+                            "entities": [
+                                {
+                                    "entity": "sensor.geocoded_location"
+                                },
+                                {
+                                    "entity": "sensor.geocoded_location_2"
+                                },
+                                {
+                                    "entity": "device_tracker.toms_iphone"
+                                },
+                                {
+                                    "entity": "device_tracker.kims_iphone"
+                                }
+                            ],
+                            "type": "entities"
+                        },
+                        {
+                            "entity": "sensor.battery_level",
+                            "max": 100,
+                            "min": 0,
+                            "name": "Tom's Battery",
+                            "theme": "default",
+                            "type": "gauge"
+                        },
+                        {
+                            "entity": "sensor.back_hall_burglar",
+                            "type": "sensor"
+                        },
+                        {
+                            "entities": [
+                                {
+                                    "entity": "binary_sensor.back_hall_motion"
+                                }
+                            ],
+                            "type": "entities"
+                        }
+                    ],
+                    "path": "about_view",
+                    "title": "About"
+                },
+                {
+                    "badges": [],
+                    "cards": [
+                        {
+                            "entities": [
+                                {
+                                    "entity": "zwave.aeon_labs_zw090_z_stick_gen5_us"
+                                },
+                                {
+                                    "entity": "zwave.toms_minimote"
+                                },
+                                {
+                                    "entity": "zwave.leviton_dz15s_1bz_decora_smart_switch"
+                                },
+                                {
+                                    "entity": "zwave.leviton_dz15s_1bz_decora_smart_switch_2"
+                                },
+                                {
+                                    "entity": "zwave.leviton_dz15s_1bz_decora_smart_switch_3"
+                                },
+                                {
+                                    "entity": "zwave.leviton_dz15s_1bz_decora_smart_switch_4"
+                                },
+                                {
+                                    "entity": "zwave.leviton_dz15s_1bz_decora_smart_switch_5"
+                                },
+                                {
+                                    "entity": "zwave.leviton_dz15s_1bz_decora_smart_switch_6"
+                                },
+                                {
+                                    "entity": "zwave.leviton_dz15s_1bz_decora_smart_switch_8"
+                                },
+                                {
+                                    "entity": "zwave.leviton_dz1kd_1bz_decora_1000w_smart_dimmer"
+                                },
+                                {
+                                    "entity": "zwave.leviton_dz1kd_1bz_decora_1000w_smart_dimmer_2"
+                                },
+                                {
+                                    "entity": "zwave.leviton_dz6hd_1bz_decora_600w_smart_dimmer"
+                                },
+                                {
+                                    "entity": "zwave.leviton_dz6hd_1bz_decora_600w_smart_dimmer_2"
+                                },
+                                {
+                                    "entity": "zwave.leviton_dz6hd_1bz_decora_600w_smart_dimmer_3"
+                                },
+                                {
+                                    "entity": "zwave.leviton_dz6hd_1bz_decora_600w_smart_dimmer_4"
+                                },
+                                {
+                                    "entity": "zwave.leviton_dz6hd_1bz_decora_600w_smart_dimmer_5"
+                                },
+                                {
+                                    "entity": "zwave.leviton_dz6hd_1bz_decora_600w_smart_dimmer_6"
+                                },
+                                {
+                                    "entity": "zwave.leviton_dzr15_1lz_receptacle"
+                                },
+                                {
+                                    "entity": "zwave.remotec_zfm_80"
+                                }
+                            ],
+                            "type": "entities"
+                        }
+                    ],
+                    "path": "z-wave",
+                    "title": "Z-Wave"
+                },
+                {
+                    "badges": [],
+                    "cards": [
+                        {
+                            "entity": "media_player.master_bedroom",
+                            "type": "media-control"
+                        },
+                        {
+                            "entity": "media_player.master_tv",
+                            "type": "media-control"
+                        },
+                        {
+                            "entity": "media_player.master_bath",
+                            "type": "media-control"
+                        }
+                    ],
+                    "path": "sonos",
+                    "title": "Sonos"
+                }
+            ]
+        }
+    },
+    "key": "lovelace",
+    "version": 1
+}

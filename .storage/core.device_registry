@@ -1,0 +1,980 @@
+{
+    "data": {
+        "devices": [
+            {
+                "area_id": null,
+                "config_entries": [
+                    "af900d6fd7b741bb863212fcc70e8f91"
+                ],
+                "connections": [
+                    [
+                        "mac",
+                        "50:c7:bf:ab:4d:fa"
+                    ]
+                ],
+                "id": "bde3831d81f94636951712028f2bdfda",
+                "identifiers": [],
+                "manufacturer": "TP-Link",
+                "model": "HS105(US)",
+                "name": "Foyer Lamp 1",
+                "name_by_user": null,
+                "sw_version": "1.5.4 Build 181224 Rel.092927",
+                "via_device_id": null
+            },
+            {
+                "area_id": null,
+                "config_entries": [
+                    "af900d6fd7b741bb863212fcc70e8f91"
+                ],
+                "connections": [
+                    [
+                        "mac",
+                        "b0:4e:26:1b:27:00"
+                    ]
+                ],
+                "id": "acf6e50fff2940d2875b6877f10f65d7",
+                "identifiers": [],
+                "manufacturer": "TP-Link",
+                "model": "HS100(US)",
+                "name": "Kim\u2019s Office Lamp",
+                "name_by_user": null,
+                "sw_version": "1.2.9 Build 170808 Rel.145815",
+                "via_device_id": null
+            },
+            {
+                "area_id": null,
+                "config_entries": [
+                    "af900d6fd7b741bb863212fcc70e8f91"
+                ],
+                "connections": [
+                    [
+                        "mac",
+                        "50:c7:bf:af:90:9c"
+                    ]
+                ],
+                "id": "1bfdf7e527d24f48b83969455a52083d",
+                "identifiers": [],
+                "manufacturer": "TP-Link",
+                "model": "HS105(US)",
+                "name": "Foyer Lamp 2",
+                "name_by_user": null,
+                "sw_version": "1.5.4 Build 181224 Rel.092927",
+                "via_device_id": null
+            },
+            {
+                "area_id": null,
+                "config_entries": [
+                    "7dd43fc57d964b1980351b0cdb07a022"
+                ],
+                "connections": [],
+                "id": "d899ee8154a546f08c023aba80b69a54",
+                "identifiers": [
+                    [
+                        "webhook_id",
+                        "f1db6ff7e7f9fef6ed202288d3710a770d0bf3edddb8f6defd54dac5b9c427b7"
+                    ],
+                    [
+                        "device_id",
+                        "4551fc8761d043b8acadf580838db5d2"
+                    ]
+                ],
+                "manufacturer": "Apple",
+                "model": "iPhone X\u0280",
+                "name": "iPhone",
+                "name_by_user": null,
+                "sw_version": "13.3",
+                "via_device_id": null
+            },
+            {
+                "area_id": null,
+                "config_entries": [
+                    "7dd43fc57d964b1980351b0cdb07a022"
+                ],
+                "connections": [],
+                "id": "4f534fe79e764d3087fe1660c29c6925",
+                "identifiers": [
+                    [
+                        "mobile_app",
+                        "4551fc8761d043b8acadf580838db5d2"
+                    ]
+                ],
+                "manufacturer": "Apple",
+                "model": "iPhone X\u0280",
+                "name": "iPhone",
+                "name_by_user": null,
+                "sw_version": "13.3.1",
+                "via_device_id": null
+            },
+            {
+                "area_id": null,
+                "config_entries": [
+                    "18bbe44382274fa0a46c13517042f0d4"
+                ],
+                "connections": [],
+                "id": "be1032b29e614ba5a50b231c0fcc5912",
+                "identifiers": [
+                    [
+                        "zwave",
+                        1
+                    ]
+                ],
+                "manufacturer": "AEON Labs",
+                "model": "ZW090 Z-Stick Gen5 US",
+                "name": "AEON Labs ZW090 Z-Stick Gen5 US",
+                "name_by_user": null,
+                "sw_version": null,
+                "via_device_id": null
+            },
+            {
+                "area_id": null,
+                "config_entries": [
+                    "18bbe44382274fa0a46c13517042f0d4"
+                ],
+                "connections": [],
+                "id": "df95c229cf254773b4b432da315b909e",
+                "identifiers": [
+                    [
+                        "zwave",
+                        2
+                    ]
+                ],
+                "manufacturer": "Leviton",
+                "model": "DZ6HD-1BZ Decora 600W Smart Dimmer",
+                "name": "Leviton DZ6HD-1BZ Decora 600W Smart Dimmer",
+                "name_by_user": null,
+                "sw_version": null,
+                "via_device_id": "be1032b29e614ba5a50b231c0fcc5912"
+            },
+            {
+                "area_id": null,
+                "config_entries": [
+                    "18bbe44382274fa0a46c13517042f0d4"
+                ],
+                "connections": [],
+                "id": "54f8f62fd95d40c9a693807a656c37ec",
+                "identifiers": [
+                    [
+                        "zwave",
+                        3
+                    ]
+                ],
+                "manufacturer": "Leviton",
+                "model": "DZ15S-1BZ Decora Smart Switch",
+                "name": "Leviton DZ15S-1BZ Decora Smart Switch",
+                "name_by_user": null,
+                "sw_version": null,
+                "via_device_id": "be1032b29e614ba5a50b231c0fcc5912"
+            },
+            {
+                "area_id": null,
+                "config_entries": [
+                    "18bbe44382274fa0a46c13517042f0d4"
+                ],
+                "connections": [],
+                "id": "cbad8525eef24060b672b9221a2bb15b",
+                "identifiers": [
+                    [
+                        "zwave",
+                        4
+                    ]
+                ],
+                "manufacturer": "Leviton",
+                "model": "DZ6HD-1BZ Decora 600W Smart Dimmer",
+                "name": "Leviton DZ6HD-1BZ Decora 600W Smart Dimmer",
+                "name_by_user": null,
+                "sw_version": null,
+                "via_device_id": "be1032b29e614ba5a50b231c0fcc5912"
+            },
+            {
+                "area_id": null,
+                "config_entries": [
+                    "18bbe44382274fa0a46c13517042f0d4"
+                ],
+                "connections": [],
+                "id": "15bc2cda40764298976b07665882d94c",
+                "identifiers": [
+                    [
+                        "zwave",
+                        5
+                    ]
+                ],
+                "manufacturer": "Leviton",
+                "model": "DZ1KD-1BZ Decora 1000W Smart Dimmer",
+                "name": "Leviton DZ1KD-1BZ Decora 1000W Smart Dimmer",
+                "name_by_user": null,
+                "sw_version": null,
+                "via_device_id": "be1032b29e614ba5a50b231c0fcc5912"
+            },
+            {
+                "area_id": null,
+                "config_entries": [
+                    "18bbe44382274fa0a46c13517042f0d4"
+                ],
+                "connections": [],
+                "id": "ad5f4f0c81344a5a85f379a930cb124f",
+                "identifiers": [
+                    [
+                        "zwave",
+                        6
+                    ]
+                ],
+                "manufacturer": "Leviton",
+                "model": "DZ15S-1BZ Decora Smart Switch",
+                "name": "Leviton DZ15S-1BZ Decora Smart Switch",
+                "name_by_user": null,
+                "sw_version": null,
+                "via_device_id": "be1032b29e614ba5a50b231c0fcc5912"
+            },
+            {
+                "area_id": null,
+                "config_entries": [
+                    "18bbe44382274fa0a46c13517042f0d4"
+                ],
+                "connections": [],
+                "id": "f549ff182642426286e9b5f864015af4",
+                "identifiers": [
+                    [
+                        "zwave",
+                        7
+                    ]
+                ],
+                "manufacturer": "Leviton",
+                "model": "DZ15S-1BZ Decora Smart Switch",
+                "name": "Leviton DZ15S-1BZ Decora Smart Switch",
+                "name_by_user": null,
+                "sw_version": null,
+                "via_device_id": "be1032b29e614ba5a50b231c0fcc5912"
+            },
+            {
+                "area_id": null,
+                "config_entries": [
+                    "18bbe44382274fa0a46c13517042f0d4"
+                ],
+                "connections": [],
+                "id": "765bde0f7dc8424f8234fb5eda0f3f6e",
+                "identifiers": [
+                    [
+                        "zwave",
+                        8
+                    ]
+                ],
+                "manufacturer": "Leviton",
+                "model": "DZ1KD-1BZ Decora 1000W Smart Dimmer",
+                "name": "Leviton DZ1KD-1BZ Decora 1000W Smart Dimmer",
+                "name_by_user": null,
+                "sw_version": null,
+                "via_device_id": "be1032b29e614ba5a50b231c0fcc5912"
+            },
+            {
+                "area_id": null,
+                "config_entries": [
+                    "18bbe44382274fa0a46c13517042f0d4"
+                ],
+                "connections": [],
+                "id": "64d6cedafa1440ce85711c28d2fbb2a5",
+                "identifiers": [
+                    [
+                        "zwave",
+                        9
+                    ]
+                ],
+                "manufacturer": "Leviton",
+                "model": "DZ6HD-1BZ Decora 600W Smart Dimmer",
+                "name": "Leviton DZ6HD-1BZ Decora 600W Smart Dimmer",
+                "name_by_user": null,
+                "sw_version": null,
+                "via_device_id": "be1032b29e614ba5a50b231c0fcc5912"
+            },
+            {
+                "area_id": null,
+                "config_entries": [
+                    "18bbe44382274fa0a46c13517042f0d4"
+                ],
+                "connections": [],
+                "id": "5052c373d999465386608a804b304023",
+                "identifiers": [
+                    [
+                        "zwave",
+                        10
+                    ]
+                ],
+                "manufacturer": "Leviton",
+                "model": "DZ15S-1BZ Decora Smart Switch",
+                "name": "Leviton DZ15S-1BZ Decora Smart Switch",
+                "name_by_user": null,
+                "sw_version": null,
+                "via_device_id": "be1032b29e614ba5a50b231c0fcc5912"
+            },
+            {
+                "area_id": null,
+                "config_entries": [
+                    "18bbe44382274fa0a46c13517042f0d4"
+                ],
+                "connections": [],
+                "id": "79c6cb3ef13d4ed0a7845143867fb321",
+                "identifiers": [
+                    [
+                        "zwave",
+                        11
+                    ]
+                ],
+                "manufacturer": "Leviton",
+                "model": "DZ15S-1BZ Decora Smart Switch",
+                "name": "Leviton DZ15S-1BZ Decora Smart Switch",
+                "name_by_user": null,
+                "sw_version": null,
+                "via_device_id": "be1032b29e614ba5a50b231c0fcc5912"
+            },
+            {
+                "area_id": null,
+                "config_entries": [
+                    "18bbe44382274fa0a46c13517042f0d4"
+                ],
+                "connections": [],
+                "id": "b4017bde7ea5487194810f5b43d032e0",
+                "identifiers": [
+                    [
+                        "zwave",
+                        13
+                    ]
+                ],
+                "manufacturer": "Leviton",
+                "model": "DZ6HD-1BZ Decora 600W Smart Dimmer",
+                "name": "Leviton DZ6HD-1BZ Decora 600W Smart Dimmer",
+                "name_by_user": null,
+                "sw_version": null,
+                "via_device_id": "be1032b29e614ba5a50b231c0fcc5912"
+            },
+            {
+                "area_id": null,
+                "config_entries": [
+                    "18bbe44382274fa0a46c13517042f0d4"
+                ],
+                "connections": [],
+                "id": "a469f167622f4cbdb8f6be0ae4188463",
+                "identifiers": [
+                    [
+                        "zwave",
+                        16
+                    ]
+                ],
+                "manufacturer": "",
+                "model": "",
+                "name": "Unknown Node 16",
+                "name_by_user": null,
+                "sw_version": null,
+                "via_device_id": "be1032b29e614ba5a50b231c0fcc5912"
+            },
+            {
+                "area_id": null,
+                "config_entries": [
+                    "18bbe44382274fa0a46c13517042f0d4"
+                ],
+                "connections": [],
+                "id": "bfa678922a5f4e4da11344328eccd52d",
+                "identifiers": [
+                    [
+                        "zwave",
+                        17
+                    ]
+                ],
+                "manufacturer": "Leviton",
+                "model": "DZ15S-1BZ Decora Smart Switch",
+                "name": "Leviton DZ15S-1BZ Decora Smart Switch",
+                "name_by_user": null,
+                "sw_version": null,
+                "via_device_id": "be1032b29e614ba5a50b231c0fcc5912"
+            },
+            {
+                "area_id": null,
+                "config_entries": [
+                    "18bbe44382274fa0a46c13517042f0d4"
+                ],
+                "connections": [],
+                "id": "617f6b5784af4b528b08eb6e9c5e74d8",
+                "identifiers": [
+                    [
+                        "zwave",
+                        18
+                    ]
+                ],
+                "manufacturer": "",
+                "model": "",
+                "name": "Unknown Node 18",
+                "name_by_user": null,
+                "sw_version": null,
+                "via_device_id": "be1032b29e614ba5a50b231c0fcc5912"
+            },
+            {
+                "area_id": null,
+                "config_entries": [
+                    "18bbe44382274fa0a46c13517042f0d4"
+                ],
+                "connections": [],
+                "id": "5328efd03042426499414e56bb243bbd",
+                "identifiers": [
+                    [
+                        "zwave",
+                        19
+                    ]
+                ],
+                "manufacturer": "Leviton",
+                "model": "DZR15-1LZ Receptacle",
+                "name": "Leviton DZR15-1LZ Receptacle",
+                "name_by_user": null,
+                "sw_version": null,
+                "via_device_id": "be1032b29e614ba5a50b231c0fcc5912"
+            },
+            {
+                "area_id": null,
+                "config_entries": [
+                    "18bbe44382274fa0a46c13517042f0d4"
+                ],
+                "connections": [],
+                "id": "b065f56128eb4de791483b5fd7f39074",
+                "identifiers": [
+                    [
+                        "zwave",
+                        22
+                    ]
+                ],
+                "manufacturer": "Leviton",
+                "model": "DZ15S-1BZ Decora Smart Switch",
+                "name": "Leviton DZ15S-1BZ Decora Smart Switch",
+                "name_by_user": null,
+                "sw_version": null,
+                "via_device_id": "be1032b29e614ba5a50b231c0fcc5912"
+            },
+            {
+                "area_id": null,
+                "config_entries": [
+                    "18bbe44382274fa0a46c13517042f0d4"
+                ],
+                "connections": [],
+                "id": "cacfee0b5abe4a3ea737449616293414",
+                "identifiers": [
+                    [
+                        "zwave",
+                        23
+                    ]
+                ],
+                "manufacturer": "Remotec",
+                "model": "ZFM-80",
+                "name": "Remotec ZFM-80",
+                "name_by_user": null,
+                "sw_version": null,
+                "via_device_id": "be1032b29e614ba5a50b231c0fcc5912"
+            },
+            {
+                "area_id": null,
+                "config_entries": [
+                    "18bbe44382274fa0a46c13517042f0d4"
+                ],
+                "connections": [],
+                "id": "6de370031cab4050bfd95b7adb529f06",
+                "identifiers": [
+                    [
+                        "zwave",
+                        24
+                    ]
+                ],
+                "manufacturer": "AEON Labs",
+                "model": "DSA03202 Minimote",
+                "name": "AEON Labs DSA03202 Minimote",
+                "name_by_user": null,
+                "sw_version": null,
+                "via_device_id": "be1032b29e614ba5a50b231c0fcc5912"
+            },
+            {
+                "area_id": null,
+                "config_entries": [
+                    "ca72b6763e2a4b1eb571bfc85961c7c4"
+                ],
+                "connections": [],
+                "id": "de2f5cc02f68465ba4aed55c9e7d63db",
+                "identifiers": [
+                    [
+                        "webhook_id",
+                        "cebcb8bc26b6e4de1b959dae264b7148826a777cd8568d41318fb3bac5eb06b2"
+                    ],
+                    [
+                        "device_id",
+                        "1dbdfb1e44f548498ebb412f3afc0d49"
+                    ]
+                ],
+                "manufacturer": "Apple",
+                "model": "iPhone X",
+                "name": "Kim's iPhone (2)",
+                "name_by_user": null,
+                "sw_version": "13.3",
+                "via_device_id": null
+            },
+            {
+                "area_id": null,
+                "config_entries": [
+                    "ca72b6763e2a4b1eb571bfc85961c7c4"
+                ],
+                "connections": [],
+                "id": "dfbe6bb3f9da4c71b63ee67db23fa57f",
+                "identifiers": [
+                    [
+                        "mobile_app",
+                        "1dbdfb1e44f548498ebb412f3afc0d49"
+                    ]
+                ],
+                "manufacturer": "Apple",
+                "model": "iPhone X",
+                "name": "Kim's iPhone (2)",
+                "name_by_user": null,
+                "sw_version": "13.3.1",
+                "via_device_id": null
+            },
+            {
+                "area_id": null,
+                "config_entries": [
+                    "18bbe44382274fa0a46c13517042f0d4"
+                ],
+                "connections": [],
+                "id": "3147e5ea14d34b6588bb8f28319b424e",
+                "identifiers": [
+                    [
+                        "zwave",
+                        25
+                    ]
+                ],
+                "manufacturer": "Leviton",
+                "model": "DZ15S-1BZ Decora Smart Switch",
+                "name": "Leviton DZ15S-1BZ Decora Smart Switch",
+                "name_by_user": null,
+                "sw_version": null,
+                "via_device_id": "be1032b29e614ba5a50b231c0fcc5912"
+            },
+            {
+                "area_id": null,
+                "config_entries": [
+                    "18bbe44382274fa0a46c13517042f0d4"
+                ],
+                "connections": [],
+                "id": "f315dcf2d35143e79e1b58ef6cc1a8a4",
+                "identifiers": [
+                    [
+                        "zwave",
+                        27
+                    ]
+                ],
+                "manufacturer": "Leviton",
+                "model": "DZ6HD-1BZ Decora 600W Smart Dimmer",
+                "name": "Leviton DZ6HD-1BZ Decora 600W Smart Dimmer",
+                "name_by_user": null,
+                "sw_version": null,
+                "via_device_id": "be1032b29e614ba5a50b231c0fcc5912"
+            },
+            {
+                "area_id": null,
+                "config_entries": [
+                    "f9d888cc269d4553bd9c0e64ab981304"
+                ],
+                "connections": [],
+                "id": "15253cf414d64ac9a876b9f8c3720ea4",
+                "identifiers": [
+                    [
+                        "device_id",
+                        "81d5c1a84fa74a9381e41d3189c76256"
+                    ],
+                    [
+                        "webhook_id",
+                        "2b1fd7acf66d325ed3d4ee5fdf1dd42d4d62f48bd28db3c640f2b7691239fed5"
+                    ]
+                ],
+                "manufacturer": "Apple",
+                "model": "iPad Air",
+                "name": "iPad (2)",
+                "name_by_user": null,
+                "sw_version": "12.4.3",
+                "via_device_id": null
+            },
+            {
+                "area_id": null,
+                "config_entries": [
+                    "f9d888cc269d4553bd9c0e64ab981304"
+                ],
+                "connections": [],
+                "id": "59c39d0fb1bf4f2faaff81900c7c81b2",
+                "identifiers": [
+                    [
+                        "mobile_app",
+                        "81d5c1a84fa74a9381e41d3189c76256"
+                    ]
+                ],
+                "manufacturer": "Apple",
+                "model": "iPad Air",
+                "name": "iPad (2)",
+                "name_by_user": null,
+                "sw_version": "12.4.5",
+                "via_device_id": null
+            },
+            {
+                "area_id": null,
+                "config_entries": [
+                    "18bbe44382274fa0a46c13517042f0d4"
+                ],
+                "connections": [],
+                "id": "97aee3f33cda40d28fb1da50d30af0c0",
+                "identifiers": [
+                    [
+                        "zwave",
+                        28
+                    ]
+                ],
+                "manufacturer": "Leviton",
+                "model": "DZ15S-1BZ Decora Smart Switch",
+                "name": "Leviton DZ15S-1BZ Decora Smart Switch",
+                "name_by_user": null,
+                "sw_version": null,
+                "via_device_id": "be1032b29e614ba5a50b231c0fcc5912"
+            },
+            {
+                "area_id": null,
+                "config_entries": [
+                    "18bbe44382274fa0a46c13517042f0d4"
+                ],
+                "connections": [],
+                "id": "49fa785a5873432283998d78a9917c9b",
+                "identifiers": [
+                    [
+                        "zwave",
+                        29
+                    ]
+                ],
+                "manufacturer": "Leviton",
+                "model": "DZ15S-1BZ Decora Smart Switch",
+                "name": "Leviton DZ15S-1BZ Decora Smart Switch",
+                "name_by_user": null,
+                "sw_version": null,
+                "via_device_id": "be1032b29e614ba5a50b231c0fcc5912"
+            },
+            {
+                "area_id": null,
+                "config_entries": [
+                    "18bbe44382274fa0a46c13517042f0d4"
+                ],
+                "connections": [],
+                "id": "dc50201f15e1401ab4da102b1873cd0b",
+                "identifiers": [
+                    [
+                        "zwave",
+                        30
+                    ]
+                ],
+                "manufacturer": "Leviton",
+                "model": "DZ15S-1BZ Decora Smart Switch",
+                "name": "Leviton DZ15S-1BZ Decora Smart Switch",
+                "name_by_user": null,
+                "sw_version": null,
+                "via_device_id": "be1032b29e614ba5a50b231c0fcc5912"
+            },
+            {
+                "area_id": null,
+                "config_entries": [
+                    "18bbe44382274fa0a46c13517042f0d4"
+                ],
+                "connections": [],
+                "id": "07fd0eb9ac394e099218979d8825a679",
+                "identifiers": [
+                    [
+                        "zwave",
+                        32
+                    ]
+                ],
+                "manufacturer": "Zooz",
+                "model": "ZSE09 Mini Sensor",
+                "name": "Zooz ZSE09 Mini Sensor",
+                "name_by_user": null,
+                "sw_version": null,
+                "via_device_id": "be1032b29e614ba5a50b231c0fcc5912"
+            },
+            {
+                "area_id": null,
+                "config_entries": [
+                    "eeb48196348749528231a2a62f84cdbb"
+                ],
+                "connections": [],
+                "id": "87f30041a7bd4a09b7770b62bfd03775",
+                "identifiers": [
+                    [
+                        "sonos",
+                        "RINCON_949F3E21681401400"
+                    ]
+                ],
+                "manufacturer": "Sonos",
+                "model": "Connect",
+                "name": "TV Room",
+                "name_by_user": null,
+                "sw_version": null,
+                "via_device_id": null
+            },
+            {
+                "area_id": null,
+                "config_entries": [
+                    "eeb48196348749528231a2a62f84cdbb"
+                ],
+                "connections": [],
+                "id": "0b35840031bc4ee3a39376eac881a930",
+                "identifiers": [
+                    [
+                        "sonos",
+                        "RINCON_5CAAFDE1306C01400"
+                    ]
+                ],
+                "manufacturer": "Sonos",
+                "model": "Connect:Amp",
+                "name": "Guest Suite",
+                "name_by_user": null,
+                "sw_version": null,
+                "via_device_id": null
+            },
+            {
+                "area_id": null,
+                "config_entries": [
+                    "eeb48196348749528231a2a62f84cdbb"
+                ],
+                "connections": [],
+                "id": "ce335d40b6d5427ea22b57a6bc39b4d8",
+                "identifiers": [
+                    [
+                        "sonos",
+                        "RINCON_5CAAFDE0824C01400"
+                    ]
+                ],
+                "manufacturer": "Sonos",
+                "model": "Connect:Amp",
+                "name": "Great Room",
+                "name_by_user": null,
+                "sw_version": null,
+                "via_device_id": null
+            },
+            {
+                "area_id": null,
+                "config_entries": [
+                    "eeb48196348749528231a2a62f84cdbb"
+                ],
+                "connections": [],
+                "id": "325899006053481190e8c89a8e660eab",
+                "identifiers": [
+                    [
+                        "sonos",
+                        "RINCON_5CAAFD58290C01400"
+                    ]
+                ],
+                "manufacturer": "Sonos",
+                "model": "Play:3",
+                "name": "Kitchen",
+                "name_by_user": null,
+                "sw_version": null,
+                "via_device_id": null
+            },
+            {
+                "area_id": null,
+                "config_entries": [
+                    "eeb48196348749528231a2a62f84cdbb"
+                ],
+                "connections": [],
+                "id": "8854bfee04bf4b3ca9b35a6a251191e7",
+                "identifiers": [
+                    [
+                        "sonos",
+                        "RINCON_5CAAFDE246DA01400"
+                    ]
+                ],
+                "manufacturer": "Sonos",
+                "model": "Connect:Amp",
+                "name": "Master Bedroom",
+                "name_by_user": null,
+                "sw_version": null,
+                "via_device_id": null
+            },
+            {
+                "area_id": null,
+                "config_entries": [
+                    "eeb48196348749528231a2a62f84cdbb"
+                ],
+                "connections": [],
+                "id": "f68e655719e64de2927fe3f92d2ef445",
+                "identifiers": [
+                    [
+                        "sonos",
+                        "RINCON_5CAAFDE0833A01400"
+                    ]
+                ],
+                "manufacturer": "Sonos",
+                "model": "Connect:Amp",
+                "name": "Patio",
+                "name_by_user": null,
+                "sw_version": null,
+                "via_device_id": null
+            },
+            {
+                "area_id": null,
+                "config_entries": [
+                    "eeb48196348749528231a2a62f84cdbb"
+                ],
+                "connections": [],
+                "id": "1c7357a1c01f4d4dbeddb863c9980ff6",
+                "identifiers": [
+                    [
+                        "sonos",
+                        "RINCON_5CAAFDE23E4601400"
+                    ]
+                ],
+                "manufacturer": "Sonos",
+                "model": "Connect:Amp",
+                "name": "Deck",
+                "name_by_user": null,
+                "sw_version": null,
+                "via_device_id": null
+            },
+            {
+                "area_id": null,
+                "config_entries": [
+                    "eeb48196348749528231a2a62f84cdbb"
+                ],
+                "connections": [],
+                "id": "bd7165c56cda4272ace35a13d5e00e7e",
+                "identifiers": [
+                    [
+                        "sonos",
+                        "RINCON_5CAAFDAEDBF101400"
+                    ]
+                ],
+                "manufacturer": "Sonos",
+                "model": "Playbar",
+                "name": "Master TV",
+                "name_by_user": null,
+                "sw_version": null,
+                "via_device_id": null
+            },
+            {
+                "area_id": null,
+                "config_entries": [
+                    "eeb48196348749528231a2a62f84cdbb"
+                ],
+                "connections": [],
+                "id": "fdf67fa40d024b6c9b01647fc0c235f4",
+                "identifiers": [
+                    [
+                        "sonos",
+                        "RINCON_5CAAFDE23F0801400"
+                    ]
+                ],
+                "manufacturer": "Sonos",
+                "model": "Connect:Amp",
+                "name": "Bar-Billiards",
+                "name_by_user": null,
+                "sw_version": null,
+                "via_device_id": null
+            },
+            {
+                "area_id": null,
+                "config_entries": [
+                    "eeb48196348749528231a2a62f84cdbb"
+                ],
+                "connections": [],
+                "id": "a1475025d3da4f8b89658c7b34ebb9bf",
+                "identifiers": [
+                    [
+                        "sonos",
+                        "RINCON_7828CAAF38EA01400"
+                    ]
+                ],
+                "manufacturer": "Sonos",
+                "model": "Play:1",
+                "name": "Tom\u2019s Room",
+                "name_by_user": null,
+                "sw_version": null,
+                "via_device_id": null
+            },
+            {
+                "area_id": null,
+                "config_entries": [
+                    "eeb48196348749528231a2a62f84cdbb"
+                ],
+                "connections": [],
+                "id": "951f304902934f89b9181405220759a5",
+                "identifiers": [
+                    [
+                        "sonos",
+                        "RINCON_5CAAFDE2463601400"
+                    ]
+                ],
+                "manufacturer": "Sonos",
+                "model": "Connect:Amp",
+                "name": "Master Bath",
+                "name_by_user": null,
+                "sw_version": null,
+                "via_device_id": null
+            },
+            {
+                "area_id": null,
+                "config_entries": [
+                    "eeb48196348749528231a2a62f84cdbb"
+                ],
+                "connections": [],
+                "id": "8dfce77a3d1446838dae59098b32b44d",
+                "identifiers": [
+                    [
+                        "sonos",
+                        "RINCON_5CAAFDAEDBE501400"
+                    ]
+                ],
+                "manufacturer": "Sonos",
+                "model": "Playbar",
+                "name": "Great Room TV",
+                "name_by_user": null,
+                "sw_version": null,
+                "via_device_id": null
+            },
+            {
+                "area_id": null,
+                "config_entries": [
+                    "18bbe44382274fa0a46c13517042f0d4"
+                ],
+                "connections": [],
+                "id": "441706cd07664b78a84c38b270b0258a",
+                "identifiers": [
+                    [
+                        "zwave",
+                        33
+                    ]
+                ],
+                "manufacturer": "Leviton",
+                "model": "DZ6HD-1BZ Decora 600W Smart Dimmer",
+                "name": "Leviton DZ6HD-1BZ Decora 600W Smart Dimmer",
+                "name_by_user": null,
+                "sw_version": null,
+                "via_device_id": "be1032b29e614ba5a50b231c0fcc5912"
+            },
+            {
+                "area_id": null,
+                "config_entries": [
+                    "18bbe44382274fa0a46c13517042f0d4"
+                ],
+                "connections": [],
+                "id": "136beec1a3ff43d896f662c330d0d74e",
+                "identifiers": [
+                    [
+                        "zwave",
+                        34
+                    ]
+                ],
+                "manufacturer": "Leviton",
+                "model": "DZ15S-1BZ Decora Smart Switch",
+                "name": "Leviton DZ15S-1BZ Decora Smart Switch",
+                "name_by_user": null,
+                "sw_version": null,
+                "via_device_id": "be1032b29e614ba5a50b231c0fcc5912"
+            }
+        ]
+    },
+    "key": "core.device_registry",
+    "version": 1
+}

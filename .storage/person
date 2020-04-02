@@ -1,0 +1,24 @@
+{
+    "data": {
+        "persons": [
+            {
+                "device_trackers": [
+                    "device_tracker.toms_iphone"
+                ],
+                "id": "e2b8e35da5954bf59650e47d3a459c71",
+                "name": "Tom",
+                "user_id": "297616794afc42a8be1e22d02faf5815"
+            },
+            {
+                "device_trackers": [
+                    "device_tracker.kims_iphone"
+                ],
+                "id": "a5a380d2dfe84dbdb9974d5f26d07b6a",
+                "name": "Kim",
+                "user_id": "939e75cd6cd745e6a5d2c74c7163e277"
+            }
+        ]
+    },
+    "key": "person",
+    "version": 1
+}

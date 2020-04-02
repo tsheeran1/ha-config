@@ -1,0 +1,182 @@
+{
+    "data": {
+        "entries": [
+            {
+                "connection_class": "cloud_poll",
+                "data": {
+                    "track_home": true
+                },
+                "domain": "met",
+                "entry_id": "ddc9d985222f425b9c549989c44a0b59",
+                "options": {},
+                "source": "onboarding",
+                "system_options": {
+                    "disable_new_entities": false
+                },
+                "title": "Home",
+                "unique_id": null,
+                "version": 1
+            },
+            {
+                "connection_class": "local_poll",
+                "data": {},
+                "domain": "tplink",
+                "entry_id": "af900d6fd7b741bb863212fcc70e8f91",
+                "options": {},
+                "source": "user",
+                "system_options": {
+                    "disable_new_entities": false
+                },
+                "title": "TP-Link Smart Home",
+                "unique_id": null,
+                "version": 1
+            },
+            {
+                "connection_class": "cloud_push",
+                "data": {
+                    "app_data": {
+                        "push_token": "f6WuVzmraiQ:APA91bFx-2o942CmkCkikq8bmpTuCBXi-uZ9JYtRaZ-d8E_NEWK9GGXmzqHhbdK4qk3t2n2aKmTzm3LJ-KaosnwRvbvIcyZedMU2ZvhwonUItBLCYAiMWCHotqFwe1MxGmneWAnJBTbo",
+                        "push_url": "https://mobile-apps.home-assistant.io/api/sendPushNotification"
+                    },
+                    "app_id": "io.robbie.HomeAssistant",
+                    "app_name": "Home Assistant",
+                    "app_version": "2.0.0 (69)",
+                    "device_id": "4551fc8761d043b8acadf580838db5d2",
+                    "device_name": "iPhone",
+                    "manufacturer": "Apple",
+                    "model": "iPhone X\u0280",
+                    "os_name": "iOS",
+                    "os_version": "13.3.1",
+                    "secret": "0f053b0cd2f5fe33006d8db3b916d820cba6d30545bd515123032e8ab1d71089",
+                    "supports_encryption": true,
+                    "user_id": "297616794afc42a8be1e22d02faf5815",
+                    "webhook_id": "f1db6ff7e7f9fef6ed202288d3710a770d0bf3edddb8f6defd54dac5b9c427b7"
+                },
+                "domain": "mobile_app",
+                "entry_id": "7dd43fc57d964b1980351b0cdb07a022",
+                "options": {},
+                "source": "registration",
+                "system_options": {
+                    "disable_new_entities": false
+                },
+                "title": "iPhone",
+                "unique_id": null,
+                "version": 1
+            },
+            {
+                "connection_class": "local_push",
+                "data": {
+                    "network_key": null,
+                    "usb_path": "/dev/zwave"
+                },
+                "domain": "zwave",
+                "entry_id": "18bbe44382274fa0a46c13517042f0d4",
+                "options": {},
+                "source": "import",
+                "system_options": {
+                    "disable_new_entities": false
+                },
+                "title": "Z-Wave (import from configuration.yaml)",
+                "unique_id": null,
+                "version": 1
+            },
+            {
+                "connection_class": "cloud_push",
+                "data": {
+                    "app_data": {
+                        "push_token": "cs2vy1HwRLM:APA91bHiSmZVjp-SMyQDLKpi9VhKdOT-t8ZOORjvf0fZ2BeJLQx1GMBDT3jRJ1Oe7VSuiWZDWy8iUTjzAjdAX063CPFGMnU6OeKAdK2N8FjNg8JYztCLyJKXDZjprHrlSEb-sRBls-xz",
+                        "push_url": "https://mobile-apps.home-assistant.io/api/sendPushNotification"
+                    },
+                    "app_id": "io.robbie.HomeAssistant",
+                    "app_name": "Home Assistant",
+                    "app_version": "2.0.0 (69)",
+                    "device_id": "1dbdfb1e44f548498ebb412f3afc0d49",
+                    "device_name": "Kim's iPhone (2)",
+                    "manufacturer": "Apple",
+                    "model": "iPhone X",
+                    "os_name": "iOS",
+                    "os_version": "13.3.1",
+                    "secret": "bfdb5c129f709aa9d88130a9b26462aef236a98d8785446f9338c24a78ad798f",
+                    "supports_encryption": true,
+                    "user_id": "939e75cd6cd745e6a5d2c74c7163e277",
+                    "webhook_id": "cebcb8bc26b6e4de1b959dae264b7148826a777cd8568d41318fb3bac5eb06b2"
+                },
+                "domain": "mobile_app",
+                "entry_id": "ca72b6763e2a4b1eb571bfc85961c7c4",
+                "options": {},
+                "source": "registration",
+                "system_options": {
+                    "disable_new_entities": false
+                },
+                "title": "Kim's iPhone (2)",
+                "unique_id": null,
+                "version": 1
+            },
+            {
+                "connection_class": "cloud_push",
+                "data": {
+                    "app_data": {
+                        "push_token": "cVeUCZQQWyI:APA91bG_GraKe5ZZM2RCyJL7teXGQ_fGW-1kBll5n4iAO33Znr8pyghk804GLFZ-evCljwZ2QoT_592rwufBjO8IuGlTShQzH4HkRt-YXNbgE5xt0_rdbxtyoH87Q5WRN_UTF3eZgZf8",
+                        "push_url": "https://mobile-apps.home-assistant.io/api/sendPushNotification"
+                    },
+                    "app_id": "io.robbie.HomeAssistant",
+                    "app_name": "Home Assistant",
+                    "app_version": "2.0.0 (69)",
+                    "device_id": "81d5c1a84fa74a9381e41d3189c76256",
+                    "device_name": "iPad (2)",
+                    "manufacturer": "Apple",
+                    "model": "iPad Air",
+                    "os_name": "iOS",
+                    "os_version": "12.4.5",
+                    "secret": "6ae8d087efc993431ca3b1bbcf87421abbb586b10aca1a773538f8f8527ceaed",
+                    "supports_encryption": true,
+                    "user_id": "297616794afc42a8be1e22d02faf5815",
+                    "webhook_id": "2b1fd7acf66d325ed3d4ee5fdf1dd42d4d62f48bd28db3c640f2b7691239fed5"
+                },
+                "domain": "mobile_app",
+                "entry_id": "f9d888cc269d4553bd9c0e64ab981304",
+                "options": {},
+                "source": "registration",
+                "system_options": {
+                    "disable_new_entities": false
+                },
+                "title": "iPad (2)",
+                "unique_id": null,
+                "version": 1
+            },
+            {
+                "connection_class": "local_poll",
+                "data": {
+                    "host": "tajha.duckdns.org",
+                    "port": 443
+                },
+                "domain": "cert_expiry",
+                "entry_id": "66d2a8e0fff6417e978fe558d0a46979",
+                "options": {},
+                "source": "import",
+                "system_options": {
+                    "disable_new_entities": false
+                },
+                "title": "SSL Certificate Expiry",
+                "unique_id": null,
+                "version": 1
+            },
+            {
+                "connection_class": "local_push",
+                "data": {},
+                "domain": "sonos",
+                "entry_id": "eeb48196348749528231a2a62f84cdbb",
+                "options": {},
+                "source": "ssdp",
+                "system_options": {
+                    "disable_new_entities": false
+                },
+                "title": "Sonos",
+                "unique_id": null,
+                "version": 1
+            }
+        ]
+    },
+    "key": "core.config_entries",
+    "version": 1
+}
