@@ -136,12 +136,12 @@
                 "attributes": {
                     "Confidence": "High",
                     "Types": [
-                        "Stationary"
+                        "Unknown"
                     ]
                 },
-                "icon": "mdi:human-male",
+                "icon": "mdi:help-circle",
                 "name": "Activity",
-                "state": "Stationary",
+                "state": "Unknown",
                 "type": "sensor",
                 "unique_id": "activity",
                 "webhook_id": "cebcb8bc26b6e4de1b959dae264b7148826a777cd8568d41318fb3bac5eb06b2"
@@ -154,7 +154,7 @@
                 "device_class": "battery",
                 "icon": "mdi:battery-40",
                 "name": "Battery Level",
-                "state": 46,
+                "state": 44,
                 "type": "sensor",
                 "unique_id": "battery_level",
                 "unit_of_measurement": "%",
@@ -163,7 +163,7 @@
             "cebcb8bc26b6e4de1b959dae264b7148826a777cd8568d41318fb3bac5eb06b2_battery_state": {
                 "added": true,
                 "attributes": {
-                    "Battery Level": 46
+                    "Battery Level": 44
                 },
                 "device_class": "battery",
                 "icon": "mdi:battery-40",
@@ -320,12 +320,12 @@
                 "attributes": {
                     "Confidence": "High",
                     "Types": [
-                        "Unknown"
+                        "Stationary"
                     ]
                 },
-                "icon": "mdi:help-circle",
+                "icon": "mdi:human-male",
                 "name": "Activity",
-                "state": "Unknown",
+                "state": "Stationary",
                 "type": "sensor",
                 "unique_id": "activity",
                 "webhook_id": "f1db6ff7e7f9fef6ed202288d3710a770d0bf3edddb8f6defd54dac5b9c427b7"
@@ -336,9 +336,9 @@
                     "Battery State": "Not Charging"
                 },
                 "device_class": "battery",
-                "icon": "mdi:battery",
+                "icon": "mdi:battery-90",
                 "name": "Battery Level",
-                "state": 95,
+                "state": 92,
                 "type": "sensor",
                 "unique_id": "battery_level",
                 "unit_of_measurement": "%",
@@ -347,10 +347,10 @@
             "f1db6ff7e7f9fef6ed202288d3710a770d0bf3edddb8f6defd54dac5b9c427b7_battery_state": {
                 "added": true,
                 "attributes": {
-                    "Battery Level": 95
+                    "Battery Level": 92
                 },
                 "device_class": "battery",
-                "icon": "mdi:battery",
+                "icon": "mdi:battery-90",
                 "name": "Battery State",
                 "state": "Not Charging",
                 "type": "sensor",
@@ -362,7 +362,7 @@
                 "attributes": {},
                 "icon": "mdi:wifi-star",
                 "name": "BSSID",
-                "state": "70:3a:cb:ce:e4:ed",
+                "state": "48:d6:d5:bf:67:9f",
                 "type": "sensor",
                 "unique_id": "connectivity_bssid",
                 "webhook_id": "f1db6ff7e7f9fef6ed202288d3710a770d0bf3edddb8f6defd54dac5b9c427b7"
@@ -415,8 +415,8 @@
                     "Inland Water": "N/A",
                     "Locality": "Northville",
                     "Location": [
-                        42.415673300201796,
-                        -83.51784292663595
+                        42.41546552309304,
+                        -83.51776148868932
                     ],
                     "Name": "48066 Manorwood Dr",
                     "Ocean": "N/A",
@@ -439,7 +439,7 @@
                 "attributes": {},
                 "icon": "mdi:cellphone-wireless",
                 "name": "Last Update Trigger",
-                "state": "Significant Location Change",
+                "state": "Background Fetch",
                 "type": "sensor",
                 "unique_id": "last_update_trigger",
                 "webhook_id": "f1db6ff7e7f9fef6ed202288d3710a770d0bf3edddb8f6defd54dac5b9c427b7"
@@ -460,7 +460,7 @@
                 "attributes": {},
                 "icon": "mdi:hiking",
                 "name": "Distance",
-                "state": 136,
+                "state": 155,
                 "type": "sensor",
                 "unique_id": "pedometer_distance",
                 "unit_of_measurement": "m",
@@ -493,7 +493,7 @@
                 "attributes": {},
                 "icon": "mdi:walk",
                 "name": "Steps",
-                "state": 227,
+                "state": 258,
                 "type": "sensor",
                 "unique_id": "pedometer_steps",
                 "unit_of_measurement": "steps",

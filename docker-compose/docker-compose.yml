@@ -1,0 +1,18 @@
+version: '2'
+services:
+  homeassistant:
+    user: "${UID}:${GID}"
+    container_name: ha106-6
+    group_add:
+      - dialout
+    image: homeassistant/raspberrypi3-homeassistant:0.106.6
+    restart: "no"
+    network_mode: host
+    volumes:
+      - /home/homeassistant/ha_config:/config
+      - /etc/letsencrypt:/cert:ro
+      - /etc/localtime:/etc/localtime:ro
+    devices:
+      - /dev/zwave:/dev/zwave:rwm
+    environment:
+      - TZ=America/Detroit
